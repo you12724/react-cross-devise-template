@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/target/index.web.js',
+  entry: './src/views/web/index.web.js',
   output: {
     path: path.join(__dirname, './web'),
     filename: 'bundle.js'
