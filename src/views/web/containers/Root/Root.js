@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import connect from '../../../connects/RootConnect';
 
+import connect from '../../../../logic/connects/RootConnect';
 import TextFormComponent from '../../components/molecules/TextFormComponent/TextFormComponent';
 import Button from '../../components/atoms/Button/Button';
 import TodoList from '../../components/molecules/TodoList/TodoList';
