@@ -13,7 +13,7 @@ export default handleActions({
     text: action.payload
   }),
 
-  [CREATE_TODO]: (state, action) => ({
+  [CREATE_TODO]: (state) => ({
     text: '',
     todoList: state.todoList.concat([state.text])
   })
